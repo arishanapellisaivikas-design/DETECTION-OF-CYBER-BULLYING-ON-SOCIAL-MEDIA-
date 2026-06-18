@@ -1,0 +1,26 @@
+
+drop database bullying;
+
+create database bullying;
+use bullying;
+
+create table register(username varchar(30) primary key,
+password varchar(30),
+contact varchar(12),
+email varchar(30),
+address varchar(40),
+status varchar(200));
+
+create table post(username varchar(30),
+msg_id varchar(50),
+message varchar(300),
+image_name varchar(100),
+sentiment varchar(100),
+message_type varchar(100),
+msg_date varchar(50));
+
+create table userstatus(username varchar(50),
+offensive_count int);
+
+
+
