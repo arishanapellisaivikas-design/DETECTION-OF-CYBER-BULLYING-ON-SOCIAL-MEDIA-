@@ -1,4 +1,3 @@
-# DETECTION-OF-CYBER-BULLYING-ON-SOCIAL-MEDIA-
 Detection of Cyberbullying on Social Media Using Machine Learning & NLP
 A Machine Learning and Natural Language Processing (NLP) based web application that detects offensive and cyberbullying content on social media posts. The system analyzes user text using trained ML models and classifies content as offensive or non-offensive.
 
